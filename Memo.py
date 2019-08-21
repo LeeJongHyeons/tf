@@ -43,7 +43,7 @@ hypothesis, w(weight), b(bias), cost
 input_dim 1개
 output_dim 1개
 결론: 와꾸만 잘 맞으면 됨!
-
+====================================================================================================
 model.compoile => cost + (loss)
        fit
       evaluate
