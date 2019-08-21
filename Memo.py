@@ -28,5 +28,26 @@ y = wx+b
 [w]*[x] = 곱하기 한 노드
 [w]*[x] + [b] = add 값
 
+[Tensorflow 구성]
+a = tf.constante()
+    tf.variable()
+    tf.placeholder()  => feed.dit
+
+[데이터]
+- model 구성(Deep x)
+- model.compile                       sess = tf.Session()
+- model.fit                           sess.run(    a    )
+- model.evaluate / predict            sess.run
+hypothesis, w(weight), b(bias), cost 
+
+input_dim 1개
+output_dim 1개
+결론: 와꾸만 잘 맞으면 됨!
+
+model.compoile => cost + (loss)
+       fit
+      evaluate
+      predict
+최소의 loss, 최적의 weight값을 넣어서 최소를 줄이기 위해 optimizer를 넣음
 
 '''
